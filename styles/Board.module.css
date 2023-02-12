@@ -1,0 +1,138 @@
+.board_table {
+  width: 80vw;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid #80808021;
+}
+.thead {
+  display: table-header-group;
+}
+.th {
+  display: table-row;
+  border-bottom: 1px solid rgba(70, 70, 70, 0.5);
+  line-height: 2.3rem;
+}
+.tr {
+  display: table-row;
+  line-height: 2em;
+  min-height: 2em;
+}
+
+.trHeight {
+  height: 2em;
+  overflow: hidden;
+}
+
+.tr:hover {
+  background: rgba(10, 1, 1, 0.2);
+}
+
+.title {
+  text-align: left;
+}
+
+.board_title {
+  text-align: left;
+}
+.board_container {
+  background-color: white;
+  /* min-height: 70vh; */
+  margin: 0 auto;
+  margin-top: 1vh;
+  width: 80vw;
+}
+
+.btn {
+  background-color: #26343f;
+  border: 2px solid #26343f;
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: medium;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: #e1e1e1;
+  border: 2px solid #e1e1e1;
+  color: #26343f;
+  box-shadow: none;
+}
+
+.btnWrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.quillCon {
+  text-align: left;
+}
+
+.quillCon img {
+  width: 50%;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+.content {
+  margin-top: 2%;
+}
+
+.formtitle {
+  display: inline-flex;
+  width: 100%;
+  justify-content: flex-start;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 0.7rem;
+}
+
+.titleInput {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.pageNav {
+  width: 100vw;
+  height: 5vh;
+  background-color: white;
+  color: black;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+.pageNav ul {
+  margin: 0 auto;
+}
+.pageNav li {
+  display: inline;
+  list-style: none;
+}
+.pageNav ul,
+.pageNav li {
+  margin: 0.4rem;
+  padding: 0.3rem;
+}
+.activePage {
+  border: 1px solid navy;
+  background-color: white;
+  border-radius: 3rem;
+  color: navy;
+  font-weight: bold;
+}
+.InactivePage:hover {
+  font-weight: bold;
+  background-color: pink;
+  color: white;
+  border-radius: 3rem;
+  cursor: pointer;
+}

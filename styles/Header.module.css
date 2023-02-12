@@ -1,0 +1,102 @@
+.page_title {
+  text-decoration: none;
+  color: black;
+}
+.Header {
+  position: sticky;
+  top: 0;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.userNav {
+  width: 100vw;
+  height: 5vh;
+  background-color: white;
+  color: black;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+  margin-bottom: 3rem;
+}
+.userNav ul {
+  margin: 0 auto;
+  padding: 10px;
+}
+.userNav li {
+  display: inline;
+  list-style: none;
+}
+.userNav ul,
+.userNav li {
+  margin: 0;
+  padding: 0;
+}
+.userNav > Link {
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(82, 76, 76);
+  font-weight: bold;
+}
+
+.userNav a {
+  margin: 0.1rem;
+  color: rgb(82, 76, 76);
+  font-weight: normal;
+}
+
+.userNav a::before {
+  content: "| ";
+}
+
+.footer {
+  margin: 0 auto;
+  min-height: 7vh;
+  width: 80vw;
+}
+
+.node,
+.react {
+  height: 3vh;
+  width: auto;
+  pointer-events: none;
+}
+
+.logos {
+  display: inline-flex;
+  position: absolute;
+  left: 0;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .react {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.appHeader {
+  position: relative;
+  margin: 0 auto;
+  /* background-color: #282c34; */
+  height: 14vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

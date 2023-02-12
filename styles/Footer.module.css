@@ -1,0 +1,24 @@
+.footerNav {
+  width: 100vw;
+  height: 5vh;
+  background-color: white;
+  color: black;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+
+.footerNav ul {
+  margin: 0 auto;
+  padding: 10px;
+}
+.footerNav li {
+  display: inline;
+  list-style: none;
+}
+.footerNav ul,
+.footerNav li {
+  margin: 0;
+  padding: 0;
+}

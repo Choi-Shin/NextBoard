@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  /* overflow-x: hidden; */
+  text-align: center;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+.btn {
+  background-color: #26343f;
+  border: 2px solid #26343f;
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: medium;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  margin-right: 10px;
+  box-shadow: 1px 2px 4px gray;
+}
+
+.btn:hover {
+  background-color: #e1e1e1;
+  border: 2px solid #e1e1e1;
+  color: #26343f;
+  box-shadow: none;
+}
+
+@font-face {
+  font-family: "NotoSans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../public/assets/NotoSansKR-Medium.otf") format("otf");
+}
+.icon {
+  vertical-align: sub;
+  margin-left: 3px;
+}
+
+body {
+  margin: 0;
+  font-family: "NotoSans";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.ql-editor img {
+  width: 50%;
+}
+
+.container {
+  height: fit-content;
+  width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 8rem;
+}
+.styleNoneList {
+  list-style: none;
+}
+
+::-webkit-input-placeholder {
+  font-style: italic;
+}
+:-moz-placeholder {
+  font-style: italic;
+}
+::-moz-placeholder {
+  font-style: italic;
+}
+:-ms-input-placeholder {
+  font-style: italic;
+}
+
+.portfolioBox {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, minmax(100px, auto));
+}
+
+.subtitle {
+  margin-top: 2rem;
+  height: 20vh;
+}
+.portContainer {
+  margin-top: 2rem;
+}
+
+.introduce {
+  margin: 0 auto;
+  width: 60%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  height: 100%;
+  box-shadow: inset 0.1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.siteStack {
+  margin-top: 1rem;
+}
+
+.styleNoneList {
+  margin: 0 auto;
+  width: 60%;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  box-shadow: inset 0.1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+.styleNoneList ul li {
+  list-style: none;
+  margin-top: 0.5rem;
+}
+
+footer {
+  position: fixed;
+  margin-top: 0.5rem;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9);
+}

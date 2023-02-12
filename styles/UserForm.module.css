@@ -1,0 +1,74 @@
+.form {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputWrap {
+  float: left;
+  text-align: center;
+  width: 25vw;
+}
+
+.input,
+.success,
+.failed {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.input,
+.label,
+.success,
+.failed {
+  display: block;
+  font-size: inherit;
+  max-width: 800px;
+  margin-bottom: 0.2rem;
+}
+.success {
+  background: rgb(148 250 152 / 10%);
+  border: 1px solid #286716;
+}
+.failed {
+  background: rgb(255 45 45 / 10%);
+  border: 1px solid rgb(255 45 45 / 30%);
+}
+
+.msgSuccess {
+  color: green;
+}
+.msgFailed {
+  color: rgb(226, 74, 74);
+}
+.input {
+  border: 1px solid #286716;
+}
+
+.input,
+.success,
+.failed {
+  border-radius: 5px;
+  padding: 0.4rem 0.8rem;
+  outline: none;
+}
+.label {
+  margin-bottom: 1rem;
+}
+
+.button {
+  background-color: #26343f;
+  border: 2px solid #26343f;
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: medium;
+  font-weight: bold;
+  line-height: 0.7;
+  margin: 0.5rem 0;
+  padding: 1rem 2rem;
+}
